@@ -1,0 +1,29 @@
+.bill__container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.bill__card {
+  padding: 40px 50px;
+  text-align: center;
+}
+
+.bill__card:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.bill__card h1 {
+  padding: 10px;
+  font-size: 3em;
+}
+
+.bill__card p {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.bill__card h3 {
+  padding: 10px;
+  font-size: 2em;
+}

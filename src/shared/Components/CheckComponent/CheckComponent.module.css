@@ -1,0 +1,19 @@
+.check__container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.check__card {
+  margin: 40px 30px;
+  text-align: center;
+}
+
+.btn__calculate {
+  text-align: center;
+}
+
+.btn__calculate button {
+  width: 200px;
+  height: 50px;
+}

@@ -1,0 +1,34 @@
+.person__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+}
+
+.person__card label {
+  display: flex;
+  padding: 10px;
+}
+
+.person__card label input {
+  padding: 5px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+.btn__add {
+  width: 100px;
+}
+
+
+
+.person__name {
+  margin-top: 20px;
+}
+
+.btn__end button{
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+}
+

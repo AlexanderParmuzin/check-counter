@@ -1,0 +1,42 @@
+.dish__card {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dish__card label {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.dish__card label input {
+  padding: 5px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+.btn__add {
+  text-align: center;
+}
+
+.btn__add button {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.dish__desc {
+  margin-top: 20px;
+}
+
+.btn__end {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn__end button {
+  width: 200px;
+  height: 50px;
+}
